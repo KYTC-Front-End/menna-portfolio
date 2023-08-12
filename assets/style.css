@@ -4,6 +4,13 @@
     font-family: 'Istok Web', sans-serif;
 }
 
+h1 {
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5rem 0 0 0;
+}
+
 .nav {
     height: 5rem;
     width: 100%;
@@ -170,3 +177,112 @@
 }
 
 /* < !-- end section Servises --> */
+
+/* < !-- Start section Skills --> */
+
+.skills h1, .cont {
+    color: #5D2369;
+
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 80%;
+
+}
+
+.range label {
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+
+.range p {
+    font-size: 1.1rem;
+    margin: 0.5rem 1rem;
+}
+
+input[type="range"] {
+    width: 40%;
+    color: #5D2369;
+    background-color: #5D2369;
+
+}
+
+/* < !-- end section Skills --> */
+
+/* < !-- Start section Contact --> */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 3rem;
+    background-color: white;
+    gap: 18rem;
+
+}
+
+form label {
+    font-size: 1rem;
+    /* margin-left: 1rem; */
+    font-weight: 700;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+
+    display: block;
+    margin-bottom: 1rem;
+    width: 90%;
+    margin: 0.4rem 0;
+    padding: 0.3rem;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+}
+
+.send {
+    background-color: #5D2369;
+    color: #EDE56A;
+    padding: 0.3rem 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.100rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 0.5rem solid #5D2369;
+    margin-left: 15rem;
+}
+
+.contact-image img {
+    width: 60%;
+    height: 60%;
+}
+
+/* < !-- end section Contact --> */
+
+/* < !-- Start section Footer --> */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D2369;
+    color: #fff;
+    font-size: 1rem;
+    height: 5rem;
+    padding-top: 1rem;
+
+}
+
+/* < !-- end section Footer --> */
