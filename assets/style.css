@@ -1,0 +1,49 @@
+.nav {
+    margin: 0;
+    padding: 0;
+    font-family: 'Istok Web', sans-serif;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0.5rem 3rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.open-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000000;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000000;
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0.2rem 0;
+}
+
+.navbar:hover .menu {
+    display: flex;
+    flex-direction: column;
+}
